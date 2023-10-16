@@ -118,7 +118,7 @@ fmt.Println(body)
 // Output: json:{"key1":"value1","key2":["value21","value22"],"key3":333}
 ```
 
-- post Raw 
+- post raw 
 
 ```go
 cli := gohttp.NewClient()
