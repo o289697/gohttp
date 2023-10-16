@@ -1,19 +1,12 @@
 # gohttp
 
-A fantastic HTTP request library used in golang. Inspired by [guzzle](https://github.com/guzzle/guzzle)
+A fantastic HTTP request library used in golang.
 
 ## Installation
 
 ```
 go get -u github.com/o289697/gohttp
 ```
-
-
-## Documentation
-
-API documentation can be found here:
-https://godoc.org/github.com/idoubi/gohttp
-
 
 ## Basic Usage
 
