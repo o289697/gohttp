@@ -1,6 +1,6 @@
 # gohttp
 
-A fantastic HTTP request library used in golang.
+A HTTP request library used in golang.
 
 ## Installation
 
