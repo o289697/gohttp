@@ -244,8 +244,4 @@ if err != nil {
 fmt.Println("not timeout")
 ```
 
-# License
-
-[MIT](https://opensource.org/licenses/MIT)
-
-Copyright (c) 2017-present, [idoubi](http://idoubi.cc)
+# Fork from https://github.com/idoubi/goz
