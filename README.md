@@ -118,6 +118,29 @@ fmt.Println(body)
 // Output: json:{"key1":"value1","key2":["value21","value22"],"key3":333}
 ```
 
+- post Raw 
+
+```go
+cli := gohttp.NewClient()
+
+raw, _ := json.Marshal(map[string]interface{}{	
+	"summary": test",
+}) 
+	
+resp, err := cli.Post("http://127.0.0.1:8091/post-with-raw", gohttp.Options{
+    Headers: map[string]interface{}{
+        "Content-Type": "application/json",
+    },
+    Raw: string(raw),
+})
+if err != nil {
+    log.Fatalln(err)
+}
+
+body, _ := resp.GetBody()
+fmt.Println(body)
+```
+
 ## Request Headers 
 
 ```go
